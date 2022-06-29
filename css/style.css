@@ -357,7 +357,7 @@ header{
     display: inline-block; /* Строчно-блочный элемент */
     background: skyblue; /* Серый цвет фона */
     color: black; /* Белый цвет текста */
-    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    padding: 10px; /* Поля вокруг текста */
     text-decoration: none; /* Убираем подчёркивание */
     border-radius: 3px; /* Скругляем уголки */
 }
