@@ -347,8 +347,8 @@ header{
     max-width: 960px;
     height: 70px;
     color black;
-    -moz-border-radius-bottomleft: 5px;
-    -moz-border-radius-bottomright: 5px;
+    box-shadow: 0 0 5px 2px black;
+    border-radius: 0 0 5px 5px;
 }
 
 .login__btn{
