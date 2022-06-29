@@ -340,21 +340,19 @@ body.lock {
 }
 
 .wrapper{
-    border-bottom: 1px solid wheat;
-}
-
-header{
     max-width: 960px;
-    height: 70px;
     color black;
     box-shadow: 0 0 5px 2px black;
     border-radius: 0 0 5px 5px;
 }
 
+header{
+    height: 70px;
+}
+
 .login__btn{
     position: absolute;
-    top: 20px;
-    right: 75px;
+    margin: 0 auto;
 }
 
 .log__btn{
