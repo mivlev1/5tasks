@@ -11,7 +11,7 @@ if($_SERVER['REQUEST_METHOD'] == 'GET'){//GET запрос для проверк
     $login = $_POST['login'];
     $password =$_POST['password'];
 
-    $check_user = mysqli_query($connect, "SELECT * FROM users WHERE login = '$login'");//Берем все поля из таблицы у которых логин совпадает с введеныи
+    $check_user = mysqli_query($connect, "SELECT * FROM USERS WHERE login = '$login'");//Берем все поля из таблицы у которых логин совпадает с введеныи
     if(mysqli_num_rows($check_user) > 0){//Проверка на то существует ли такой логин
         $user = mysqli_fetch_assoc($check_user);//Берем именнованые поля у совпадающего логина
         if(password_verify($password,$user['pass'])){// Проверка на совпадение пароля из таблицы с введеным
