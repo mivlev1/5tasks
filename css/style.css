@@ -1,8 +1,6 @@
 .webform {
 
-    background:
-            linear-gradient(261.2deg, rgba(255, 255, 255, 0.276) -114.85%,
-            rgba(255, 255, 255, 0) 69.04%), #040613;
+    background: whitesmoke;
     height: 816px;
     position: relative;
     color: white;
