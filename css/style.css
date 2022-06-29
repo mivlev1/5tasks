@@ -4,18 +4,20 @@
     margin: 0;
 }
 .webform {
-    margin: auto auto;
-    max-width: 960px;
+
     background: whitesmoke;
     height: 816px;
     position: relative;
     color: black;
-    box-shadow: 0 0 5px 2px black;
-    border-radius: 5px;
+
 }
 .webform__form {
     padding-top: 70px ;
-    margin-left: auto;
+
+    margin: auto auto;
+    max-width: 960px;
+    box-shadow: 0 0 5px 2px black;
+    border-radius: 5px;
 }
 /*
 .webform__form-elem {
