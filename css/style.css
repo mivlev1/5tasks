@@ -226,7 +226,8 @@ input[id="2"]:checked+label,
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(51, 51, 51, 0.4) url("../img/461855b29ae2060f319f225529145f7c.gif") center/ 50px no-repeat;
+    background-color: whitesmoke;
+    //background: rgba(51, 51, 51, 0.4) url("../img/461855b29ae2060f319f225529145f7c.gif") center/ 50px no-repeat;
     opacity: 0;
     visibility: hidden;
     transform: all 0.5s ease 0s;
