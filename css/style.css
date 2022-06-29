@@ -12,8 +12,7 @@
 
 }
 .webform__form {
-    padding-top: 70px ;
-
+    padding: 70px ;
     margin: auto auto;
     max-width: 960px;
     box-shadow: 0 0 5px 2px black;
@@ -345,9 +344,11 @@ body.lock {
 }
 
 header{
-    width: 100%;
+    max-width: 960px;
     height: 70px;
     color black;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
 }
 
 .login__btn{
