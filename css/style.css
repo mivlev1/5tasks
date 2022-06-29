@@ -11,6 +11,7 @@
     padding-top: 70px ;
     margin-left: auto;
 }
+/*
 .webform__form-elem {
     background: transparent;
     border: 1px solid rgba(256,256,256,.3);
@@ -142,7 +143,7 @@
     0px 0px 10px #f14d34;
     opacity: 0.9;
 }
-
+*/
 .date_of_birth, .gender, .limbs, .capabilities{
     padding-top: 20px ;
     margin-left: auto;
