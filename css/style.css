@@ -150,7 +150,7 @@
 .capabilities{
     padding-bottom: 20px;
 }
-
+/*
 input[type="radio"] {
     display: none;
 
@@ -208,7 +208,7 @@ input[id="2"]:checked+label,
 [id="8"]:checked+label,
 [id="16"]:checked+label{
     background-image: linear-gradient(to bottom, #020024, #2a0b6d);
-}
+}*/
 .form__input._error{
     box-shadow: 0 0 15px red;
 }
