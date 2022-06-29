@@ -1,9 +1,16 @@
+.body{
+    background-color: aqua;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+}
 .webform {
-
+    margin: auto auto;
+    max-width: 960px;
     background: whitesmoke;
     height: 816px;
     position: relative;
-    color: white;
+    color: black;
+    box-shadow: 0 0 5px 2px black;
 }
 .webform__form {
     padding-top: 70px ;
