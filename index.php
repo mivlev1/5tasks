@@ -386,7 +386,7 @@ if(isset($_SESSION['user']) && $_SERVER['REQUEST_METHOD'] == 'GET' ){ //GET за
     try{//Блок изменения данных о пользователе,которые он предпочел изменить
         $id = $_SESSION['user']['id'];
 
-        $stmt = $db->prepare("UPDATE users SET name = ?, mail = ?, bio = ?, date = ?, gender = ?, limbs = ? WHERE id = ?");
+        $stmt = $db->prepare("UPDATE USERS SET name = ?, mail = ?, bio = ?, date = ?, gender = ?, limbs = ? WHERE id = ?");
         $stmt -> execute(array($_POST['name'],$_POST['email'],$_POST['bio'],$_POST['year'],$_POST['gender'],$_POST['limbs'], $id));
 
         $stmt = $db->prepare("UPDATE  super_power SET superabilities = ? WHERE human_id = ?");
@@ -542,10 +542,10 @@ if(isset($_SESSION['user']) && $_SERVER['REQUEST_METHOD'] == 'GET' ){ //GET за
         setcookie('login',$log);
         setcookie('password',$passw);
 
-        $stmt = $db->prepare("INSERT INTO users SET login = ?, pass = ?, name = ?, mail = ?, bio = ?, date = ?, gender = ?, limbs = ?");
+        $stmt = $db->prepare("INSERT INTO USERS SET login = ?, pass = ?, name = ?, mail = ?, bio = ?, date = ?, gender = ?, limbs = ?");
         $stmt -> execute(array($log,$hash,$_POST['name'],$_POST['email'],$_POST['bio'],$_POST['year'],$_POST['gender'],$_POST['limbs']));
 
-        $res = $db->query("SELECT max(id) FROM users");
+        $res = $db->query("SELECT max(id) FROM USERS");
         $row = $res->fetch();
         $count = (int) $row[0];
 
