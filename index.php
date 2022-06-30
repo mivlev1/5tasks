@@ -538,6 +538,7 @@ if(isset($_SESSION['user']) && $_SERVER['REQUEST_METHOD'] == 'GET' ){ //GET за
     try{//Блок записи в бд, данных введеных пользователем
         $log = generateLogin(6);
         $passw =generatePassword(6);
+        //скрываем пароль с помощью хэш
         $hash = password_hash($passw, PASSWORD_DEFAULT);
         setcookie('login',$log);
         setcookie('password',$passw);
