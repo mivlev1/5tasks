@@ -345,7 +345,7 @@ body.lock {
 header{
     width: 100%;
     height: 70px;
-    color black;
+    color: black;
 }
 
 .login__btn{
