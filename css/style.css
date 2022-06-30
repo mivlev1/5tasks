@@ -281,7 +281,7 @@ body.lock {
 }
 
 .popup__content{
-    background: linear-gradient(90deg, skyblue, darkslateblue 100%);
+    background: wheat;
     color: #000;
     max-width: 800px;
     padding: 30px;
@@ -299,21 +299,19 @@ body.lock {
 
 
 .login__elem{
-    background: whitesmoke;
-    border: 2px solid rgba(0,0,0,.8);
-
+    background: rgba(0,0,0,.67);
+    /* background: transparent; */
+    border: 2px solid rgba(0,0,0,1);
     line-height: 1.2;
     font-weight: 500;
     padding: 26px 24px;
-    color: #000;
-
+    color: black;
     font-size: 14px;
     width: 480px;
     height: 54px;
     border-radius: 5px;
     box-sizing: border-box;
     padding-left: 24px;
-
     margin-bottom: 8px;
     transition: 0.4s;
     margin-left: auto;
@@ -330,14 +328,14 @@ body.lock {
     height: 60px;
     border: 2px solid #000;
     border-radius: 5px;
-    background: rgba(0,0,0,.8);
+    background: rgba(0,0,0,.8);;
     transition: 0.4s;
     font-size: 12px;
 }
 
-.popup__btn:hover{
-    background: linear-gradient(90deg, skyblue, darkslateblue 100%);
-}
+/*.popup__btn:hover{
+    background: linear-gradient(90deg, rgba(155,151,151,1) 0%, rgba(59,59,59,1) 100%);
+}*/
 
 .wrapper{
     border-bottom: 1px solid darkred;
